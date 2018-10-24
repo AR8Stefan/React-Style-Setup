@@ -192,3 +192,24 @@ const App = () => (
 ```
 
 This is handy if you don't want to load SVG as a separate file. Don't forget the curly braces in the import! The `ReactComponent` import name is special and tells Create React App that you want a React component that renders an SVG, rather than its filename.
+
+-----
+
+## Using React-Bootstrap
+(source = https://react-bootstrap.github.io/getting-started/introduction/)
+
+### Installing.
+```
+$npm install --save react react-dom
+$npm install --save react-bootstrap
+```
+
+### ES6
+ES6 modules aren't supported natively yet, but you can use the syntax now with the help of a transpiler like Babel.
+
+```
+import Button from 'react-bootstrap/lib/Button';
+// or
+import { Button } from 'react-bootstrap';
+```
+
